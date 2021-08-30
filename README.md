@@ -114,4 +114,4 @@ Raise concern to the group as soon as possible. If that does not solve the probl
 How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level?
 
 * be considerate of different skill levels and learning styles
-* shift perspective from "just finishing the project" to using this as an opportunity to grow, teach, and learn
+* shift perspective from "just finishing the project" to using this as an opportunity to grow, teach, and learn-
