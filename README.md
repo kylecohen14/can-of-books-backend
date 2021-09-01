@@ -1,13 +1,15 @@
 # Project Name - Can of Books
 
 **Author**: Marquesa Asmussen, Kyle Cohen, and Sarah Creager
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.0.3 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+When the user logs in, this application displays a list of books pulled from the server api, along with a user profile and log out button.
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+Getting started you will need to install React, React Bootstrap, Axios, express, dotenv, cors, mongo, Mongoose.
 
 ## Architecture
 
@@ -21,40 +23,33 @@ Cloud Deployment: Netlify, Heroku
 
 08-30-2021 3:00pm - Card 1 - Repos now cloned to all devs' local machines and fully deployed to Netlify and Heroku
 08-30-2021 7:30pm - Card 2 - Application now has storage functionality
-
+08-31-2021 7:30pm - Application now has working “add book to bookshelf” functionality
 ## Estimates
 
-Name of feature: Trello card 1 (Set up Repositories)
-
+Name of feature: Trello Lab 11/card 1 (Set up Repositories)
 Estimate of time needed to complete: 30 min
-
 Start time: 1:45 pm
-
 Finish time: 3:00 pm
-
 Actual time needed to complete: 1 hr 15 min
-
 ---------------------------------------------------
-Name of feature: Trello card 2 (Storage)
-
+Name of feature: Trello Lab 11/card 2 (Storage)
 Estimate of time needed to complete: 2 hours
-
 Start time: 3:15 pm
-
 Finish time: 7:30 pm
-
 Actual time needed to complete: 4 hr 15 min
-
 ---------------------------------------------------
-Name of feature: Trello card 3 (Book Component)
-
+Name of feature: Trello Lab 11/card 3 (Book Component)
 Estimate of time needed to complete: 1 hour
-
 Start time: 1:15 (Tuesday)
-
 Finish time: 5:45 pm (Tuesday)
-
 Actual time needed to complete: 4 hr 30 min
+---------------------------------------------------
+Name of feature: Trello Lab 12/card 1 (Add new book to shelf)
+Estimate of time needed to complete: 2 hours
+Start time: 6:45pm
+Finish time: 7:30pm
+Actual time needed to complete: 45 min
+
 
 ## Credit and Collaborations
 
