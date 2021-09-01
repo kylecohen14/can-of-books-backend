@@ -15,6 +15,14 @@ app.use(cors());
 
 mongoose.connect(process.env.MONGODB_URI);
 
+
+const database = mongoose.connection;
+database.on('database error', console.error.bind(console, 'connection fail'));
+database.once('database open', _ => {
+  console.log('connected on database');
+});
+
+
 app.get('/books', async (request, response) => {
   const filterQuery = {};
 
@@ -35,6 +43,22 @@ app.post('/books', async (request, response) => {
     response.status(500).send('server error')
   }
 });
+
+
+app.put('/books/:id', async (request, response) => {
+  const id = request.params.id;
+
+  try {
+    const updatedBook = await Book.findByIdAndUpdate(id, request.body, { new: true });
+    // response.status(204).send('success')
+    response.send(updatedBook);
+
+  } catch (error) {
+    console.error(error);
+    response.status(400).send(`unable to update book ${id}`);
+  } 
+});
+
 
 app.delete('/books/:id', async (request, response) => {
   try {

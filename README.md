@@ -1,11 +1,11 @@
 # Project Name - Can of Books
 
 **Author**: Marquesa Asmussen, Kyle Cohen, and Sarah Creager
-**Version**: 1.0.3 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.0.4 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
-When the user logs in, this application displays a list of books pulled from the server api, along with a user profile and log out button.
+When the user logs in, this application displays a list of books pulled from the server api, along with a user profile and log out button. User can add a book, update, and delete books ont he bookshelf.
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
@@ -24,6 +24,7 @@ Cloud Deployment: Netlify, Heroku
 08-30-2021 3:00pm - Card 1 - Repos now cloned to all devs' local machines and fully deployed to Netlify and Heroku
 08-30-2021 7:30pm - Card 2 - Application now has storage functionality
 08-31-2021 7:30pm - Application now has working “add book to bookshelf” functionality
+09-01-2021 3:30pm - Application now has working “update/delete book on bookshelf” functionality
 ## Estimates
 
 Name of feature: Trello Lab 11/card 1 (Set up Repositories)
@@ -49,6 +50,12 @@ Estimate of time needed to complete: 2 hours
 Start time: 6:45pm
 Finish time: 7:30pm
 Actual time needed to complete: 45 min
+---------------------------------------------------
+Name of feature: Trello Lab 13/card 1/2 (Add update)
+Estimate of time needed to complete: 2 hours
+Start time: 4:30pm
+Finish time: 6:30pm
+Actual time needed to complete: 2 hr
 
 
 ## Credit and Collaborations
