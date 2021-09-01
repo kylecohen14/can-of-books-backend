@@ -10,6 +10,7 @@ const Book = require('./models/bookSchema');
 const PORT = process.env.PORT || 3002;
 
 const app = express();
+app.use(express.json());
 app.use(cors());
 
 mongoose.connect(process.env.MONGODB_URI);
@@ -25,8 +26,24 @@ app.get('/books', async (request, response) => {
   response.send(books);
 });
 
-app.get('/test', (request, response) => {
-  response.send('test request received')
+app.post('/books', async (request, response) => {
+  try {
+    const newBook = await Book.create(request.body);
+    response.status(201).send(newBook);
+  } catch (error) {
+    console.error.apply(error);
+    response.status(500).send('server error')
+  }
+});
+
+app.delete('/books/:id', async (request, response) => {
+  try {
+    await Book.findByIdAndDelete(request.params.id);
+    response.status(204).send('success')
+  } catch (error) {
+    console.error.apply(error);
+    response.status(500).send('server error')
+  } 
 });
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
