@@ -25,6 +25,8 @@ Cloud Deployment: Netlify, Heroku
 08-30-2021 7:30pm - Card 2 - Application now has storage functionality
 08-31-2021 7:30pm - Application now has working “add book to bookshelf” functionality
 09-01-2021 3:30pm - Application now has working “update/delete book on bookshelf” functionality
+09-02-2021 4:30pm - Application now integrated with Auth0
+
 ## Estimates
 
 Name of feature: Trello Lab 11/card 1 (Set up Repositories)
@@ -56,7 +58,12 @@ Estimate of time needed to complete: 2 hours
 Start time: 4:30pm
 Finish time: 6:30pm
 Actual time needed to complete: 2 hr
-
+---------------------------------------------------
+Name of feature: Trello Lab 14/card 1 (Authentication)
+Estimate of time needed to complete: 2 hours
+Start time: 1:30pm
+Finish time: 4:30pm
+Actual time needed to complete: 3 hr
 
 ## Credit and Collaborations
 
