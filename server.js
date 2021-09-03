@@ -85,7 +85,6 @@ app.delete('/books/:id', async (request, response) => {
       response.send('invalid token');
     } else {
       try {
-        // const email = request.query.email
         await Book.findByIdAndDelete(request.params.id);
         response.status(204).send('success')
       } catch (error) {
